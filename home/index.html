@@ -14,7 +14,7 @@
 </head>
 <body>
     <p>home sweet home or som</p>
-    <button class="ab" href='/'>heres a button that does NOTHING useful!</button>
+    <button class="ab" onclick="shoo()">heres a button that does NOTHING useful!</button>
     <button class="ab" onclick="ytho()">but why isnt it useful if it does something</button>
     <div id="xplain" style="display:none;">
         <p>ok so basically it redirects you to / (not /00) which is always an error since you cant edit there (its like game.Parent in roblox terms so thats why</p>
@@ -26,6 +26,9 @@
         }
         function okthx() {
             document.getElementById('xplain').style.display = 'none';
+        }
+        function shoo() {
+            window.location.href = "https://3474nd0m.github.io"
         }
     </script>
 </body>
