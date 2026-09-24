@@ -1,0 +1,8 @@
+{
+  "servers": [
+    {
+      "name": "let me put you on about a github user named 347. so they wanted to fork an annisette server because sidestore's is god fucking awful and its server.json was down. so they host their own server.json to point at, but that didn't work. they blamed everything else that could be related before circling back to this, then hosting it on github pages... on the wrong site. so, they put it on a conveinently placed repo they made (which really isn't related) to point at their forked annisette server. this is where they are and they're praying that it works. however, it was SO close to. they logged in, but... no valid server found. odd, they LITERALLY JUST GAVE IT ONE!!!!! looking at the logs, they figured out that somehow, somewhere, it was using v1 instead of v3. what the fuck? anyways, with a little bit of (definetly not vibecoded) debugging, they realised that they got the fucking filename wrong like a dumbass. they try that and pray AGAIN that it works cause they starting to lose thier shit",
+      "address": "https://anisette-v3-server-fork-8m2m.onrender.com"
+    }
+  ]
+}
